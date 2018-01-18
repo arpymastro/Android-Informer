@@ -1,0 +1,9 @@
+F:\Visual 2015\Mobile Apps\Informer\Informer\obj\Release\android\assets\Informer.dll
+F:\Visual 2015\Mobile Apps\Informer\Informer\obj\Release\android\assets\Java.Interop.dll
+F:\Visual 2015\Mobile Apps\Informer\Informer\obj\Release\android\assets\Mono.Android.dll
+F:\Visual 2015\Mobile Apps\Informer\Informer\obj\Release\android\assets\mscorlib.dll
+F:\Visual 2015\Mobile Apps\Informer\Informer\obj\Release\android\assets\System.Core.dll
+F:\Visual 2015\Mobile Apps\Informer\Informer\obj\Release\android\assets\System.dll
+F:\Visual 2015\Mobile Apps\Informer\Informer\obj\Release\android\assets\System.Xml.dll
+F:\Visual 2015\Mobile Apps\Informer\Informer\obj\Release\android\assets\System.Runtime.Serialization.dll
+F:\Visual 2015\Mobile Apps\Informer\Informer\obj\Release\android\assets\System.ServiceModel.Internals.dll

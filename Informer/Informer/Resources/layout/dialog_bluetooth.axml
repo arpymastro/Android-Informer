@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#DEDEDC"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:minWidth="300dp"
+    android:minHeight="400dp">
+    <TextView
+        android:id="@+id/txtBluState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth State : "
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="20sp"
+        android:textColor="#f44336"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txtBluAddress"
+        android:layout_below="@id/txtBluState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address : "
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txtBluConName"
+        android:layout_below="@id/txtBluAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connection Name : "
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:id="@+id/pairedview"
+        android:orientation="vertical"
+        android:layout_below="@id/txtBluConName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <TextView
+            android:id="@+id/txtBluHeadPaired"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paired Devices"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lvBluPairedList" />
+    </LinearLayout>
+</RelativeLayout>
